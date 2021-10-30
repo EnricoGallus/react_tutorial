@@ -17,6 +17,7 @@ body {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    align-items: start;
 }
 
 @media screen and (width: 600px) {
@@ -38,4 +39,8 @@ body {
 .book h4 {
     color: red;
     letter-spacing: 5px;
+}
+
+.book p {
+    margin-top: .5rem;
 }
